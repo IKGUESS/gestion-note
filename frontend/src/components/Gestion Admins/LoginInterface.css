@@ -1,0 +1,85 @@
+.main-login {
+  min-height: 100vh;
+  min-width: 100vw;
+  max-height: 100vh;
+  max-width: 100vw;
+  overflow-x: hidden;
+  background: linear-gradient(to right, #f4f7fa 50%, #3f8efc 50%);
+}
+
+.login-contain {
+  height: 90vh;
+  width: 90%;
+  background: linear-gradient(to right bottom, rgba(255, 255, 255, 0.85), rgba(240, 240, 240, 0.6));
+  border-radius: 1rem;
+  margin: 2rem auto;
+  box-shadow: 0.5rem 0.5rem 2rem -1rem rgba(0, 0, 0, 0.2);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.left-side, .right-side {
+  width: 50%;
+  padding: 2rem;
+  flex: 1;
+  margin-bottom: 2%;
+}
+
+.welcomeimg {
+  margin-bottom: 2%;
+}
+
+.Link {
+  text-decoration: none;
+  color: #3f8efc;
+  transition: all 0.3s ease;
+}
+.Link:hover {
+  transform: translateY(-5px);
+}
+
+.img-class {
+  height: 4.5rem;
+}
+#img-id {
+  height: 100%;
+  width: 30%;
+  object-fit: cover;
+}
+
+.input-login {
+  display: block;
+  border: none;
+  height: 2.6rem;
+  width: 85%;
+  margin: auto;
+  margin-bottom: 1.5rem;
+  padding: 0.2rem 1rem;
+  color: #6b7280;
+  transition: all 0.1s ease-in-out;
+}
+.input-login:focus {
+  outline: none;
+  border: none;
+}
+.input-login:hover {
+  outline: 0.5px solid #3f8efc;
+  box-shadow: 2px 2px 9px -1px #3f8efc;
+}
+
+#sub-butt {
+  width: 25%;
+  background: #3f8efc;
+  color: white;
+  border: none;
+  margin-top: 2%;
+  margin-left: 35%;
+  cursor: pointer;
+  padding: 0.5rem 1rem;
+  transition: all 0.2s ease;
+}
+#sub-butt:hover {
+  box-shadow: 4px 3px 9px -1px gray;
+  transform: translateY(-5px);
+}
